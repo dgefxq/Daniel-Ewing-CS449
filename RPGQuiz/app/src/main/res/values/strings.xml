@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">RPGQuiz</string>
+    <string name="main_page_text">Welcome to the RPG character creation quiz app!</string>
+    <string name="place_holder_page_text">It would appear that you prefer to play a non-human character. More questions will come soon to determine what type of fantasy race you should play.</string>
+    <string name="playstyle_place_holder_page_text">It would appear that you don\'t have a playstyle that you strongly prefer. More questions will come
+        at a later date to give a more accurate answer.</string>
+    <string name="human_page_text">You prefer to take on the world as a human or human-like character. Battle against monstrous barbarians,
+        or undead sorcerers as a normal human. You need no special race bonuses, numbers and a belief in you fellow man are all you require!
+        Venture into the world and make a name for yourself, after all humans are one in a billion. </string>
+
+
+    <string name="race_question_one_page_text">I feel as if playing a non-human race breaks game immersion.</string>
+    <string name="race_question_two_page_text">I prefer to be a jack of all trades as opposed to a master of one or two.</string>
+    <string name="race_question_three_page_text">I value skilled diplomacy or the ability to haggle.</string>
+
+
+    <string name="warrior_page_text">Well pick up your weapon of choice, dawn your armor if you feel like at, and start smacking things. A warrior
+        is the most suitable playstyle for you. Magic is for the intellectuals, a bow for the agile, but you value strength and stamina above all.
+        Step upon the battlefield with one thought in mind, victory or death!</string>
+    <string name="mage_page_text">You are an intellectual. Your thirst for knowledge is matched only by your ability to retain information.
+        During childhood you discovered that a keen mind can defeat a sharpened blade. Head out into the world in a futile attempt to quell the insatiable
+        thirst for knowledge. You are a sorcerer, unbound by the limits of the physical world, rule or serve as you see fit, for the world is your book. </string>
+    <string name="priest_page_text">The gods have always been your friends. You choose to empower yourself through prayer, enabling yourself
+        to make use of their lofty powers. Light some candles, crack open a book of prayer, and channel the powers of the gods upon your enemies.</string>
+
+    <string name="playstyle_question_one_page_text">All I need is a weapon and maybe some armor. Just let me hit something already!</string>
+    <string name="playstyle_question_two_page_text">I prefer to manipulate the energy around my opponent through the use of sorcery to achieve victory.</string>
+    <string name="playstyle_question_three_page_text">I like to take the role of a religious warrior in my rpg playthroughs!</string>
+
+    <string name="playtype_quiz_button">Take the character playstyle quiz!</string>
+    <string name="race_quiz_button">Take the race quiz!</string>
+    <string name="strongly_agree_button">Strongly Agree</string>
+    <string name="agree_button">Agree</string>
+    <string name="neutral_button">Neutral</string>
+    <string name="disagree_button">Disagree</string>
+    <string name="strongly_disagree_button">Strongly Disagree</string>
+    <string name="title_activity_playstyle_question_one">PlaystyleQuestionOneActivity</string>
+
+
+</resources>
