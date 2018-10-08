@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.danny.rpgquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RaceQuestionOne" />
+        <activity android:name=".HumanActivity" />
+        <activity android:name=".RaceQuestionTwo" />
+        <activity android:name=".RaceQuestionThree" />
+        <activity android:name=".PlaceHolderActivity" />
+        <activity android:name=".PlaystyleQuestionOneActivity" />
+        <activity android:name=".WarriorActivity" />
+        <activity android:name=".MageActivity" />
+        <activity android:name=".PriestActivity" />
+        <activity android:name=".PlaystylePlaceHolderActivity" />
+        <activity android:name=".HumanBreakActivity" />
+        <activity android:name=".OrcQuestionOneActivity" />
+        <activity android:name=".ElfQuestionOneActivity" />
+        <activity android:name=".RaceOrcBreakActivity" />
+        <activity android:name=".RaceGoblinBreakActivity" />
+        <activity android:name=".GoblinActivity" />
+        <activity android:name=".OrcActivity" />
+        <activity android:name=".ElfBreakActivity" />
+        <activity android:name=".GnomeBreakActivity" />
+        <activity android:name=".GnomeActivity" />
+        <activity android:name=".ElfActivity" />
+        <activity android:name=".OrcQuestionTwoActivity" />
+        <activity android:name=".OrcQuestionThreeActivity" />
+        <activity android:name=".ElfQuestionTwoActivity" />
+        <activity android:name=".ElfQuestionThreeActivity" />
+        <activity android:name=".PlaystyleQuestionTwoMeleeActivity" />
+        <activity android:name=".MeleeRangeBreakActivity" />
+        <activity android:name=".PlaystyleQuestionTwoRangeActivity" />
+        <activity android:name=".PlaystyleQuestionThreeMeleeActivity" />
+        <activity android:name=".RogueActivity" />
+        <activity android:name=".RogueWarriorBreakActivity" />
+        <activity android:name=".PlaystyleMeleeMagicDamageHealBreak" />
+        <activity android:name=".PaladinActivity" />
+        <activity android:name=".ShamanActivity" />
+        <activity android:name=".PlaystyleMeleeMagicPhysicalBreakActivity" />
+        <activity android:name=".PlaystyleRangeMagicPhysicalBreakActivity" />
+        <activity android:name=".PlaystyleTrapsTurretsBreakActivity" />
+        <activity android:name=".EngineerActivity" />
+        <activity android:name=".HunterActivity" />
+        <activity android:name=".PlaystyleQuestionThreeRangeActivity" />
+        <activity android:name=".PlaystyleRangeHealingDamageBreakActivity"></activity>
+    </application>
+
+</manifest>
