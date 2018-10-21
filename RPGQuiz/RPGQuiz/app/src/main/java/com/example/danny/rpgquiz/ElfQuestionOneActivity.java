@@ -44,7 +44,7 @@ public class ElfQuestionOneActivity extends AppCompatActivity {
         disagreeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(ElfQuestionOneActivity.this, ElfQuestionTwoActivity.class);
+                Intent myIntent = new Intent(ElfQuestionOneActivity.this, OrcQuestionOneActivity.class);
                 startActivity(myIntent);
             }
         });

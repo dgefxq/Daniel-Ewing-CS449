@@ -4,12 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:background="#ff0000"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
         android:textAlignment="center"
         android:text="@string/damage_heal_break"
         />
@@ -22,8 +25,10 @@
 
         <Button
             android:id="@+id/damage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="175dp"
+            android:layout_height="40dp"
+            android:background="#000000"
+            android:textColor="#ff0000"
             android:text="@string/damage_button"
             />
     </LinearLayout>
@@ -36,7 +41,9 @@
         <Button
             android:id="@+id/heal"
             android:layout_width="175dp"
-            android:layout_height="match_parent"
+            android:layout_height="40dp"
+            android:background="#000000"
+            android:textColor="#ff0000"
             android:text="@string/heal_button"/>
     </LinearLayout>
 

@@ -1,14 +1,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical">
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:background="@drawable/roguescreen">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
-        android:padding="24dp"
-        android:textAlignment="center"
+        android:padding="12dp"
+        android:textSize="12dp"
+        android:textColor="#000000"
+        android:textAlignment="gravity"
         android:text="@string/rogue_page_text"
         />
 </LinearLayout>
