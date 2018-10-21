@@ -1,40 +1,93 @@
 <resources>
-    <string name="app_name">RPGQuiz</string>
+    <string name="app_name">RPG Character Creation Quiz</string>
     <string name="main_page_text">Welcome to the RPG character creation quiz app!</string>
-    <string name="place_holder_page_text">It would appear that you prefer to play a non-human character. More questions will come soon to determine what type of fantasy race you should play.</string>
-    <string name="playstyle_place_holder_page_text">It would appear that you don\'t have a playstyle that you strongly prefer. More questions will come
-        at a later date to give a more accurate answer.</string>
-    <string name="human_page_text">You prefer to take on the world as a human or human-like character. Battle against monstrous barbarians,
-        or undead sorcerers as a normal human. You need no special race bonuses, numbers and a belief in you fellow man are all you require!
-        Venture into the world and make a name for yourself, after all humans are one in a billion. </string>
 
 
     <string name="race_question_one_page_text">I feel as if playing a non-human race breaks game immersion.</string>
     <string name="race_question_two_page_text">I prefer to be a jack of all trades as opposed to a master of one or two.</string>
     <string name="race_question_three_page_text">I value skilled diplomacy or the ability to haggle.</string>
+    <string name="elf_race_question_one_page_text">I prefer for my character to be more far elegant and more intelligent than a human is.</string>
+    <string name="elf_race_question_two_page_text">I prefer for my character to be part of a very rare and mystical race, such as elves or gnomes.</string>
+    <string name="elf_race_question_three_page_text">I prefer for my character to be immortal, or incapable of dying from old age.</string>
+    <string name="orc_race_question_one_page_text">I prefer for my character to be ugly and brutal. The humans in my characters universe might use stories of my kinsmen to scare their children.</string>
+    <string name="orc_race_question_two_page_text">I prefer to be part of a large horde or monstrous creatures which utilize numbers
+        to overcome their foes. </string>
+    <string name="orc_race_question_three_page_text">I prefer to my character to be larger than a human, and much stronger.</string>
 
 
-    <string name="warrior_page_text">Well pick up your weapon of choice, dawn your armor if you feel like at, and start smacking things. A warrior
-        is the most suitable playstyle for you. Magic is for the intellectuals, a bow for the agile, but you value strength and stamina above all.
-        Step upon the battlefield with one thought in mind, victory or death!</string>
+    <string name="playstyle_question_one_page_text">I prefer to fight my enemies from close quarters as opposed to from a distance.</string>
+    <string name="playstyle_question_two_page_text">I prefer to figut using physical means as opposed to magic.</string>
+    <string name="playstyle_question_three_melee_page_text">I prefer to fight on the frontlines, no trickery required.</string>
+    <string name="melee_range_break">Would you prefer to take the range or melee quiz?</string>
+    <string name="rogue_warrior_break">Would you prefer to play a thief or a warrior?</string>
+    <string name="damage_heal_break">Would you prefer to deal damage or heal and protect your allies?</string>
+    <string name="range_damage_heal_question">I prefer to heal and protect my allies as opposed to dealing damage to the enemy.</string>
+    <string name="magic_physical_break">Would you prefer to attack and defend using physical or magical means?</string>
+    <string name="trap_turrents_break">I would prefer to utilize my inventions such as traps and turrets to deal physical damage from a ranged position.</string>
+
+    <string name="place_holder_page_text">It would appear that you prefer to play a character which is neither human, elf, orc, goblin, or gnome. More questions will come soon to determine what type of fantasy race you should play.</string>
+    <string name="playstyle_place_holder_page_text">It would appear that you don\'t have a playstyle that you strongly prefer. More questions will come
+        at a later date to give a more accurate answer.</string>
+    <string name="human_page_text">You prefer to take on the world as a human or human-like character. Battle against monstrous barbarians,
+        or undead sorcerers as a normal human. You need no special race bonuses. Numbers and a belief in your fellow man are all you require!
+        Strive for greatness and hope your accomplishments are remembered; after all, humans are only one in a billion. </string>
+    <string name="human_break_text">It appears that you like human characters. Would you like for your character to be human or human-like?</string>
+    <string name="orc_page_text">You enjoy playing your adventure as an orc, or orc-like character. Beauty is for the elves,
+        compassion is for the humans. You require none of these things. You are an orc, hardened by battle, and uglier than 
+        piss. Strike fear into your enemies as one of an unstoppable horde. Gnash your teeth and let loose a gutteral roar orc. </string>
+    <string name="orc_break_text">It appaears that you like to play Orcish characters. Would you like your character to be an orc?</string>
+    <string name="elf_page_text">You are an elf, immortal and graceful. You possess wisdom long since lost by the mortal races,
+        and use it to protect the last remnants of a once great kingdom. Prepare for battle, grab your bow or your staff, and protect your people elf!</string>
+    <string name="elf_break_text">It appears that you like to play an elf or elf-like character. Would you like to play an elf?</string>
+    <string name="gnome_page_text">You enjoy the mysticism of the elvss, but feel as if they are too large, and too proud.
+        A goofier take on a mystical force for good is more your speed. Enjoy the game as some form of gnome or fairy. You can 
+        become an adorable force, and one which should not be crossed.</string>
+    <string name="gnome_break_text">It appears that you would like to play some type of gnome or fairy. Would you like to play a gnome or fairy?</string>
+    <string name="goblin_page_text">You enjoy the brutal and savage nature of orcs, but do not need to be that large. Visciousness
+        and your cruel sense of cunning will get you through the game. Strike off into the world as a small, but cruel goblin.</string>
+    <string name="goblin_break_text">It appears that you would like to play some form of goblin. Would you like your character to be a goblin?</string>
+
+
+    <string name="warrior_page_text">Well pick up your weapon of choice, don your armor if you feel like it, and start smacking things. </string>
+    <string name="warrior_page_text_two">A warrior is the most suitable playstyle for you. Magic is for the intellectuals, a bow for the agile,
+        but you value strength and stamina above all. Step upon the battlefield with one thought in mind, victory or death!</string>
+    <string name="rogue_page_text">Take to the shadows and ambush your enemy. You prefer to play a rogue and a thief. Honor and glorious battle
+        mean nothing to you. You prefer to fight another day as opposed to dying to a superior foe. There is no shame in that, and you know it.
+        After all, what does honor matter to a dead man?</string>
     <string name="mage_page_text">You are an intellectual. Your thirst for knowledge is matched only by your ability to retain information.
-        During childhood you discovered that a keen mind can defeat a sharpened blade. Head out into the world in a futile attempt to quell the insatiable
+        During childhood you discovered that a keen mind can defeat a sharpened blade. Head out into the world in a futile attempt to quell that insatiable
         thirst for knowledge. You are a sorcerer, unbound by the limits of the physical world, rule or serve as you see fit, for the world is your book. </string>
-    <string name="priest_page_text">The gods have always been your friends. You choose to empower yourself through prayer, enabling yourself
-        to make use of their lofty powers. Light some candles, crack open a book of prayer, and channel the powers of the gods upon your enemies.</string>
-
-    <string name="playstyle_question_one_page_text">All I need is a weapon and maybe some armor. Just let me hit something already!</string>
-    <string name="playstyle_question_two_page_text">I prefer to manipulate the energy around my opponent through the use of sorcery to achieve victory.</string>
-    <string name="playstyle_question_three_page_text">I like to take the role of a religious warrior in my rpg playthroughs!</string>
+    <string name="priest_page_text">The gods have always been your friends for you are a priest! You choose to empower yourself through prayer,
+        enabling yourself to channel the power of the gods. Light some candles, crack open a book of prayer, and smite your enemies with theirw divine wrath.</string>
+    <string name="shaman_page_text">You prefer to utilize the magic of the elements to buff your weapons. This allows you to fight with
+        powers beyond your normal melee fighter. Burn your foes with fire or knock them back with gusts of wind. Enjoy the options presented
+        when you control the Elements!</string>
+    <string name="paladin_page_text">You understand that your allies must be protected and healed to make an impact on your world. This 
+        knowledge led you to become a Paladin. Utilize holy magic to heal and protect your allies. You are the protector, the bulwark that 
+        guards your people, and you always place them first.</string>
+    <string name="engineer_page_text">You enjoy making use of your mind to set and spring traps for your enemies. Bear traps, tripwires,
+        turrets, it does not matter to you! You are an engineer and you will use your inventions to overcome any obstacle!</string>
+    <string name="hunter_page_text">You like to stalk your prey and dispatch them from afar. Whether it be with a gun, a bow, or a spear
+        your prey will never know what hit them. You are a hunter, the apex predator wherever you travel. For the hunt!</string>
 
     <string name="playtype_quiz_button">Take the character playstyle quiz!</string>
     <string name="race_quiz_button">Take the race quiz!</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
     <string name="strongly_agree_button">Strongly Agree</string>
     <string name="agree_button">Agree</string>
     <string name="neutral_button">Neutral</string>
     <string name="disagree_button">Disagree</string>
     <string name="strongly_disagree_button">Strongly Disagree</string>
     <string name="title_activity_playstyle_question_one">PlaystyleQuestionOneActivity</string>
-
+    <string name="title_activity_elf_question_one">ElfQuestionOneActivity</string>
+    <string name="range_button">Range</string>
+    <string name="melee_button">Melee</string>
+    <string name="rogue_button">Rogue</string>
+    <string name="warrior_button">Warrior</string>
+    <string name="damage_button">Damage</string>
+    <string name="heal_button">Heal and Protect</string>
+    <string name="physical_button">Physical</string>
+    <string name="magic_button">Magic</string>
 
 </resources>

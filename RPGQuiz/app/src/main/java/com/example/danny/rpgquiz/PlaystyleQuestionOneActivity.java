@@ -27,35 +27,35 @@ public class PlaystyleQuestionOneActivity extends AppCompatActivity {
         stronglyAgreeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(PlaystyleQuestionOneActivity.this, WarriorActivity.class);
+                Intent myIntent = new Intent(PlaystyleQuestionOneActivity.this, PlaystyleQuestionTwoMeleeActivity.class);
                 startActivity(myIntent);
             }
         });
         agreeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(PlaystyleQuestionOneActivity.this, PlaystyleQuestionTwoActivity.class);
+                Intent myIntent = new Intent(PlaystyleQuestionOneActivity.this, PlaystyleQuestionTwoMeleeActivity.class);
                 startActivity(myIntent);
             }
         });
         neutralButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(PlaystyleQuestionOneActivity.this, PlaystyleQuestionTwoActivity.class);
+                Intent myIntent = new Intent(PlaystyleQuestionOneActivity.this, MeleeRangeBreakActivity.class);
                 startActivity(myIntent);
             }
         });
         disagreeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(PlaystyleQuestionOneActivity.this, PlaystyleQuestionTwoActivity.class);
+                Intent myIntent = new Intent(PlaystyleQuestionOneActivity.this, PlaystyleQuestionTwoRangeActivity.class);
                 startActivity(myIntent);
             }
         });
         stronglyDisagreeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(PlaystyleQuestionOneActivity.this, PlaystyleQuestionTwoActivity.class);
+                Intent myIntent = new Intent(PlaystyleQuestionOneActivity.this, PlaystyleQuestionTwoRangeActivity.class);
                 startActivity(myIntent);
             }
         });

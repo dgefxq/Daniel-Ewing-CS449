@@ -24,7 +24,7 @@ public class RaceQuestionOne extends AppCompatActivity {
         stronglyAgreeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(RaceQuestionOne.this, HumanActivity.class);
+                Intent myIntent = new Intent(RaceQuestionOne.this, RaceQuestionTwo.class);
                 startActivity(myIntent);
             }
         });

@@ -23,7 +23,7 @@ public class RaceQuestionThree extends AppCompatActivity {
         stronglyAgreeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(RaceQuestionThree.this, HumanActivity.class);
+                Intent myIntent = new Intent(RaceQuestionThree.this, HumanBreakActivity.class);
                 startActivity(myIntent);
             }
 
@@ -31,28 +31,28 @@ public class RaceQuestionThree extends AppCompatActivity {
         agreeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(RaceQuestionThree.this, PlaceHolderActivity.class);
+                Intent myIntent = new Intent(RaceQuestionThree.this, HumanBreakActivity.class);
                 startActivity(myIntent);
             }
         });
         neutralButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(RaceQuestionThree.this, PlaceHolderActivity.class);
+                Intent myIntent = new Intent(RaceQuestionThree.this, ElfQuestionOneActivity.class);
                 startActivity(myIntent);
             }
         });
         disagreeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(RaceQuestionThree.this, PlaceHolderActivity.class);
+                Intent myIntent = new Intent(RaceQuestionThree.this, OrcQuestionOneActivity.class);
                 startActivity(myIntent);
             }
         });
        stronglyDisagreeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(RaceQuestionThree.this, PlaceHolderActivity.class);
+                Intent myIntent = new Intent(RaceQuestionThree.this, OrcQuestionOneActivity.class);
                 startActivity(myIntent);
             }
         });
