@@ -1,17 +1,35 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="bottom"
-    android:orientation="vertical"
+    android:gravity="left"
+    android:orientation="horizontal"
     android:background="@drawable/humanscreen">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
-        android:padding="24dp"
-        android:textAlignment="center"
-        android:textColor="#ffffff"
-        android:textSize="20dp"
+        android:padding="10dp"
+        android:textAlignment="gravity"
+        android:textColor="#000000"
+        android:textSize="12dp"
         android:text="@string/human_page_text"
         />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textAlignment="gravity"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textAlignment="gravity"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        android:text="@string/human_page_text_two"
+        />
+
 </LinearLayout>

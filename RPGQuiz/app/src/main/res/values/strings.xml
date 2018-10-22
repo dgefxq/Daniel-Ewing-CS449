@@ -30,7 +30,8 @@
         at a later date to give a more accurate answer.</string>
     <string name="human_page_text">You prefer to take on the world as a human or human-like character. Battle against monstrous barbarians,
         or undead sorcerers as a normal human. You need no special race bonuses. Numbers and a belief in your fellow man are all you require!
-        Strive for greatness and hope your accomplishments are remembered; after all, humans are only one in a billion. </string>
+        </string>
+    <string name="human_page_text_two"> Strive for greatness and hope your accomplishments are remembered; after all, humans are only one in a billion.</string>
     <string name="human_break_text">It appears that you like human characters. Would you like for your character to be human or human-like?</string>
     <string name="orc_page_text">You enjoy playing your adventure as an orc, or orc-like character. Beauty is for the elves,
         compassion is for the humans. You require none of these things. You are an orc, hardened by battle, and uglier than 
@@ -40,8 +41,8 @@
         and use it to protect the last remnants of a once great kingdom. Prepare for battle, grab your bow or your staff, and protect your people elf!</string>
     <string name="elf_break_text">It appears that you like to play an elf or elf-like character. Would you like to play an elf?</string>
     <string name="gnome_page_text">You enjoy the mysticism of the elvss, but feel as if they are too large, and too proud.
-        A goofier take on a mystical force for good is more your speed. Enjoy the game as some form of gnome or fairy. You can 
-        become an adorable force, and one which should not be crossed.</string>
+        A goofier take on a mystical force for good is more your speed. </string>
+    <string name="gnome_page_two">Enjoy the game as some form of gnome or fairy. You can become an adorable force, and one which should not be crossed.</string>
     <string name="gnome_break_text">It appears that you would like to play some type of gnome or fairy. Would you like to play a gnome or fairy?</string>
     <string name="goblin_page_text">You enjoy the brutal and savage nature of orcs, but do not need to be that large. Visciousness
         and your cruel sense of cunning will get you through the game. Strike off into the world as a small, but cruel goblin.</string>

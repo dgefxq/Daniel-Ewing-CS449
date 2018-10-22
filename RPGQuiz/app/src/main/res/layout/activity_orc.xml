@@ -3,6 +3,7 @@
     android:layout_height="match_parent"
     android:gravity="bottom"
     android:orientation="vertical"
+    android:background="@drawable/orcscreen"
     >
 
     <TextView
@@ -10,6 +11,11 @@
         android:layout_height="wrap_content"
         android:padding="24dp"
         android:textAlignment="center"
+        android:textColor="#ff0000"
+        android:shadowRadius="1"
+        android:shadowDy="2"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
         android:textSize="20dp"
         android:text="@string/orc_page_text"
         />
