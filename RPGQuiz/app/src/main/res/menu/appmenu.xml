@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/about_menu_item"
+        android:title="About the App"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/main_menu_item"
+        android:title="Return to Main Screen"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/playstyle_menu_item"
+        android:title="Start Playstyle Quiz"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/race_menu_item"
+        android:title="Start Race Quiz"
+        app:showAsAction="never"/>
+
+
+
+
+</menu>

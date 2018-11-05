@@ -70,7 +70,7 @@
         turrets, it does not matter to you! You are an engineer and you will use your inventions to overcome any obstacle!</string>
     <string name="hunter_page_text">You like to stalk your prey and dispatch them from afar. Whether it be with a gun, a bow, or a spear
         your prey will never know what hit them. You are a hunter, the apex predator wherever you travel. For the hunt!</string>
-
+    <string name="about_page_text">This app was created as s school project and serves to help people choose which type of character they would like to play in an rpg.</string>
     <string name="playtype_quiz_button">Take the character playstyle quiz!</string>
     <string name="race_quiz_button">Take the race quiz!</string>
     <string name="yes_button">Yes</string>
@@ -90,5 +90,5 @@
     <string name="heal_button">Heal and Protect</string>
     <string name="physical_button">Physical</string>
     <string name="magic_button">Magic</string>
-
+    <string name="title_activity_menu">MenuActivity</string>
 </resources>

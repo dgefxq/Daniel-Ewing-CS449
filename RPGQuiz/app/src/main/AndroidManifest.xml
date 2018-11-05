@@ -56,7 +56,8 @@
         <activity android:name=".EngineerActivity" />
         <activity android:name=".HunterActivity" />
         <activity android:name=".PlaystyleQuestionThreeRangeActivity" />
-        <activity android:name=".PlaystyleRangeHealingDamageBreakActivity"></activity>
+        <activity android:name=".PlaystyleRangeHealingDamageBreakActivity" />
+        <activity android:name=".AboutActivity"></activity>
     </application>
 
 </manifest>
