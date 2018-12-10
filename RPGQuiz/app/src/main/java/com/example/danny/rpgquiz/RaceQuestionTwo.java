@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class RaceQuestionTwo extends AppCompatActivity {
-    private Button stronglyAgreeButton, agreeButton, neutralButton, disagreeButton, stronglyDisagreeButton;
+    private Button stronglyAgreeButton, agreeButton, disagreeButton, stronglyDisagreeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,6 @@ public class RaceQuestionTwo extends AppCompatActivity {
 
         stronglyAgreeButton = (Button) findViewById(R.id.strongly_agree);
         agreeButton = (Button) findViewById(R.id.agree);
-        neutralButton = (Button) findViewById(R.id.neutral);
         disagreeButton = (Button)   findViewById(R.id.disagree);
         stronglyDisagreeButton = (Button) findViewById(R.id.strongly_disagree);
 
@@ -27,7 +26,7 @@ public class RaceQuestionTwo extends AppCompatActivity {
         stronglyAgreeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(RaceQuestionTwo.this, HumanBreakActivity.class);
+                Intent myIntent = new Intent(RaceQuestionTwo.this, RaceQuestionThree.class);
                 startActivity(myIntent);
             }
         });
@@ -38,24 +37,17 @@ public class RaceQuestionTwo extends AppCompatActivity {
                 startActivity(myIntent);
             }
         });
-        neutralButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent myIntent = new Intent(RaceQuestionTwo.this, RaceQuestionThree.class);
-                startActivity(myIntent);
-            }
-        });
         disagreeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(RaceQuestionTwo.this, RaceQuestionThree.class);
+                Intent myIntent = new Intent(RaceQuestionTwo.this, RaceQuestionThreeB.class);
                 startActivity(myIntent);
             }
         });
         stronglyDisagreeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(RaceQuestionTwo.this, RaceQuestionThree.class);
+                Intent myIntent = new Intent(RaceQuestionTwo.this, RaceQuestionThreeB.class);
                 startActivity(myIntent);
             }
         });

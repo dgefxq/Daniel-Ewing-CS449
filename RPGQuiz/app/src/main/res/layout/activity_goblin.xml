@@ -1,17 +1,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="bottom"
+    android:gravity="right"
     android:orientation="vertical"
     android:background="@drawable/goblinscreen"
     >
-
     <TextView
         android:layout_width="wrap_content"
+        android:layout_height="165dp" />
+    <TextView
+        android:layout_width="115dp"
         android:layout_height="wrap_content"
-        android:padding="24dp"
-        android:textAlignment="center"
-        android:textSize="20dp"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textSize="14dp"
         android:text="@string/goblin_page_text"
         />
 </LinearLayout>

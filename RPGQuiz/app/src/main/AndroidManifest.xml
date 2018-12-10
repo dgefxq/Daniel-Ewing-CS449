@@ -26,21 +26,10 @@
         <activity android:name=".MageActivity" />
         <activity android:name=".PriestActivity" />
         <activity android:name=".PlaystylePlaceHolderActivity" />
-        <activity android:name=".HumanBreakActivity" />
-        <activity android:name=".OrcQuestionOneActivity" />
-        <activity android:name=".ElfQuestionOneActivity" />
-        <activity android:name=".RaceOrcBreakActivity" />
-        <activity android:name=".RaceGoblinBreakActivity" />
         <activity android:name=".GoblinActivity" />
         <activity android:name=".OrcActivity" />
-        <activity android:name=".ElfBreakActivity" />
-        <activity android:name=".GnomeBreakActivity" />
         <activity android:name=".GnomeActivity" />
         <activity android:name=".ElfActivity" />
-        <activity android:name=".OrcQuestionTwoActivity" />
-        <activity android:name=".OrcQuestionThreeActivity" />
-        <activity android:name=".ElfQuestionTwoActivity" />
-        <activity android:name=".ElfQuestionThreeActivity" />
         <activity android:name=".PlaystyleQuestionTwoMeleeActivity" />
         <activity android:name=".MeleeRangeBreakActivity" />
         <activity android:name=".PlaystyleQuestionTwoRangeActivity" />
@@ -57,7 +46,20 @@
         <activity android:name=".HunterActivity" />
         <activity android:name=".PlaystyleQuestionThreeRangeActivity" />
         <activity android:name=".PlaystyleRangeHealingDamageBreakActivity" />
-        <activity android:name=".AboutActivity"></activity>
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".RaceQuestionTwoB" />
+        <activity android:name=".RaceQuestionThreeB" />
+        <activity android:name=".RaceQuestionThreeC" />
+        <activity android:name=".RaceQuestionThreeD" />
+        <activity android:name=".RaceQuestionFourActivity" />
+        <activity android:name=".RaceQuestionFourBActivity" />
+        <activity android:name=".DwarfActivity" />
+        <activity android:name=".CentaurActivity" />
+        <activity android:name=".WeirdActivity" />
+        <activity android:name=".RaceQuestionFourCActivity" />
+        <activity android:name=".RaceQuestionFourDActivity" />
+        <activity android:name=".MinotaurActivity" />
+        <activity android:name=".HarpyActivity"></activity>
     </application>
 
 </manifest>

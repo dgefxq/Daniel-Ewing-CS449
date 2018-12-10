@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:background="@drawable/weirdscreen">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textAlignment="gravity"
+        android:textSize="16dp"
+        android:text="@string/weird_page_text"
+        />
+</LinearLayout>

@@ -44,7 +44,7 @@ public class PlaystyleQuestionThreeMeleeActivity extends AppCompatActivity {
         neutralButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(PlaystyleQuestionThreeMeleeActivity.this, PlaystylePlaceHolderActivity.class);
+                Intent myIntent = new Intent(PlaystyleQuestionThreeMeleeActivity.this, RogueWarriorBreakActivity.class);
                 startActivity(myIntent);
             }
         });

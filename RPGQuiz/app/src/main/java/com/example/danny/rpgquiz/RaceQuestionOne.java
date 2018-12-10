@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class RaceQuestionOne extends AppCompatActivity {
-    private Button stronglyAgreeButton, agreeButton, neutralButton, disagreeButton, stronglyDisagreeButton;
+    private Button stronglyAgreeButton, agreeButton, disagreeButton, stronglyDisagreeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,6 @@ public class RaceQuestionOne extends AppCompatActivity {
 
         stronglyAgreeButton = (Button) findViewById(R.id.strongly_agree);
         agreeButton = (Button) findViewById(R.id.agree);
-        neutralButton = (Button) findViewById(R.id.neutral);
         disagreeButton = (Button)   findViewById(R.id.disagree);
         stronglyDisagreeButton = (Button) findViewById(R.id.strongly_disagree);
 
@@ -38,24 +37,17 @@ public class RaceQuestionOne extends AppCompatActivity {
                 startActivity(myIntent);
             }
         });
-        neutralButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent myIntent = new Intent(RaceQuestionOne.this, RaceQuestionTwo.class);
-                startActivity(myIntent);
-            }
-        });
         disagreeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(RaceQuestionOne.this, RaceQuestionTwo.class);
+                Intent myIntent = new Intent(RaceQuestionOne.this, RaceQuestionTwoB.class);
                 startActivity(myIntent);
             }
         });
         stronglyDisagreeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(RaceQuestionOne.this, RaceQuestionTwo.class);
+                Intent myIntent = new Intent(RaceQuestionOne.this, RaceQuestionTwoB.class);
                 startActivity(myIntent);
             }
         });

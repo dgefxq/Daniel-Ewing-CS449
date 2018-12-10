@@ -3,9 +3,12 @@
     <string name="main_page_text">Welcome to the RPG character creation quiz app!</string>
 
 
-    <string name="race_question_one_page_text">I feel as if playing a non-human race breaks game immersion.</string>
-    <string name="race_question_two_page_text">I prefer to be a jack of all trades as opposed to a master of one or two.</string>
-    <string name="race_question_three_page_text">I value skilled diplomacy or the ability to haggle.</string>
+    <string name="race_question_one_page_text">I prefer to play as a race which are portrayed as good rather than those which are portrayed as evil.</string>
+    <string name="race_question_two_text">I prefer to play as race which is humanoid.</string>
+    <string name="race_question_three_text">I prefer to play races found in fantasy such as the works of J.R.R. Tolkien or H.P. Lovecraft.</string>
+    <string name="race_question_three_b_text">I prefer to play as a race similar to those found in human mythology.</string>
+    <string name="race_question_four_text">I prefer to play a race which is larger than a human as opposed to one which is smaller.</string>
+
     <string name="elf_race_question_one_page_text">I prefer for my character to be more far elegant and more intelligent than a human is.</string>
     <string name="elf_race_question_two_page_text">I prefer for my character to be part of a very rare and mystical race, such as elves or gnomes.</string>
     <string name="elf_race_question_three_page_text">I prefer for my character to be immortal, or incapable of dying from old age.</string>
@@ -19,7 +22,7 @@
     <string name="playstyle_question_two_page_text">I prefer to figut using physical means as opposed to magic.</string>
     <string name="playstyle_question_three_melee_page_text">I prefer to fight on the frontlines, no trickery required.</string>
     <string name="melee_range_break">Would you prefer to take the range or melee quiz?</string>
-    <string name="rogue_warrior_break">Would you prefer to play a thief or a warrior?</string>
+    <string name="rogue_warrior_break">Would you prefer to play a rogue or a warrior?</string>
     <string name="damage_heal_break">Would you prefer to deal damage or heal and protect your allies?</string>
     <string name="range_damage_heal_question">I prefer to heal and protect my allies as opposed to dealing damage to the enemy.</string>
     <string name="magic_physical_break">Would you prefer to attack and defend using physical or magical means?</string>
@@ -47,7 +50,11 @@
     <string name="goblin_page_text">You enjoy the brutal and savage nature of orcs, but do not need to be that large. Visciousness
         and your cruel sense of cunning will get you through the game. Strike off into the world as a small, but cruel goblin.</string>
     <string name="goblin_break_text">It appears that you would like to play some form of goblin. Would you like your character to be a goblin?</string>
-
+    <string name="dwarf_page_text">Who needs to reach the top shelf? You are a Dwarf, short, stout and strong! Take to the field and bury you axe in your opponents knee caps!</string>
+    <string name="centaur_page_text">Half man and half horse, or half horse and half man, your choice, although I can\'t recall ever hearing of the reverse centaur! Gallop into battle and stomp on your foes!</string>
+    <string name="weird_page_text">You seem like you want to play the most insane, unheard of race imaginable. Get weird with it, and push the game to it\'s limits. You think outside the box and we love it!</string>
+    <string name="minotaur_page_text">You are the Minotaur! Every bit as fearsome as the legends say you are. Dispense your bestial wrath amongst your enemies and see the cowards flee from your terrifying visage!</string>
+    <string name="harpy_page_text">Shrewed and viscious. You are a harpy, void of all emotions, barring anger of course. Shred your enemies to pieces as you descend upon them from the sky</string>
 
     <string name="warrior_page_text">Well pick up your weapon of choice, don your armor if you feel like it, and start smacking things. </string>
     <string name="warrior_page_text_two">A warrior is the most suitable playstyle for you. Magic is for the intellectuals, a bow for the agile,
@@ -91,4 +98,5 @@
     <string name="physical_button">Physical</string>
     <string name="magic_button">Magic</string>
     <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_race_question_two_b">RaceQuestionTwoB</string>
 </resources>
